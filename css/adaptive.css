@@ -8,4 +8,7 @@
   .main {
     flex-direction: column-reverse;
   }
+  .main-content {
+    text-align: center;
+  }
 }
