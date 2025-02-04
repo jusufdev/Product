@@ -1,0 +1,11 @@
+@media (max-width: 935px) {
+  .nav {
+    display: none;
+  }
+  .burger-menu {
+    display: flex;
+  }
+  .main {
+    flex-direction: column-reverse;
+  }
+}
