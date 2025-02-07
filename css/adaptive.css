@@ -33,4 +33,59 @@
   .support {
     flex-direction: column;
   }
+  .quick {
+    flex-direction: column;
+  }
+  .quick-main {
+    flex-direction: row-reverse;
+  }
+  .quick .quick-main:nth-child(1) {
+    p {
+      order: -1;
+    }
+  }
+  .quick .quick-main:nth-child(2) {
+    p {
+      order: 1;
+    }
+  }
+  .Contents {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Contents-content {
+    align-items: center;
+  }
+  .Price {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .Price-top {
+    flex-direction: column;
+  }
+  .What {
+    flex-direction: column;
+    align-items: center;
+  }
+  .join {
+    flex-direction: column;
+    align-items: center;
+  }
+  .join-content {
+    text-align: center;
+    align-items: center;
+  }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-main {
+    align-items: center;
+    text-align: center;
+  }
+  .footer-nav {
+    text-align: center;
+  }
 }
